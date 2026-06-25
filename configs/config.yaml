@@ -1,0 +1,12 @@
+seed: 42
+
+data:
+  users: 200
+  total_events: 20000
+  anomaly_ratio: 0.05
+  raw_output: data/raw/events.csv
+  feature_output: data/processed/features.csv
+
+feature_settings:
+  rolling_windows: [5, 10]
+  anomaly_threshold: 3
